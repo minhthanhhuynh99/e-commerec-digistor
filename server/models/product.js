@@ -22,6 +22,10 @@ var productSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    thumb: {
+      type: String,
+      required: true,
+    },
     price: {
       type: Number,
       required: true,
@@ -52,7 +56,7 @@ var productSchema = new mongoose.Schema(
         comment: { type: String },
       },
     ],
-    totalRating: {
+    totalRatings: {
       type: Number,
       default: 0,
     },

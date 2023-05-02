@@ -17,7 +17,6 @@ export const appSlice = createSlice({
       state.isLoading = true;
     });
     builder.addCase(actions.getCategories.fulfilled, (state, action) => {
-      console.log(action);
       state.isLoading = false;
       state.categories = action.payload;
     });
@@ -28,6 +27,6 @@ export const appSlice = createSlice({
   },
 });
 
-export const {} = appSlice.actions;
+// export const {} = appSlice.actions;
 
 export default appSlice.reducer;

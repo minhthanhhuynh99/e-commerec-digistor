@@ -2,7 +2,14 @@ import { RiPhoneFill } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";
 import { HiShoppingBag } from "react-icons/hi";
 import { FaUserCircle } from "react-icons/fa";
-import { AiFillHome } from "react-icons/ai";
+import {
+  AiFillHome,
+  AiFillStar,
+  AiOutlineStar,
+  AiFillEye,
+  AiFillHeart,
+} from "react-icons/ai";
+import { BiMenu } from "react-icons/bi";
 
 const icons = {
   RiPhoneFill,
@@ -10,6 +17,11 @@ const icons = {
   HiShoppingBag,
   FaUserCircle,
   AiFillHome,
+  AiFillStar,
+  AiOutlineStar,
+  AiFillEye,
+  BiMenu,
+  AiFillHeart,
 };
 
 export default icons;
